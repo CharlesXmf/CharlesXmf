@@ -1,13 +1,6 @@
-# 👋 Hi, I'm Charles
-
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=2000&color=20DBA9&center=true&vCenter=true&width=800&lines=I+am+rooted,+but+I+flow." alt="Typing SVG" />
-  <br/>
-
-  <div align="center">
-    <img width="58%" src="https://github-readme-stats.vercel.app/api?username=CharlesXmf&count_private=true&theme=rose&hide_border=true&show_icons=true" />
-    <img width="32%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=CharlesXmf&layout=compact&langs_count=6&theme=rose&hide_border=true" />
-  </div>
+  <img width="58%" src="https://github-readme-stats.shion.dev/api?username=CharlesXmf&count_private=true&theme=rose&hide_border=true&show_icons=true" />
+  <img width="32%" src="https://github-readme-stats.shion.dev/api/top-langs/?username=CharlesXmf&layout=compact&langs_count=6&theme=rose&hide_border=true" />
 
   <br/>
   <img src="https://streak-stats.demolab.com?user=CharlesXmf&theme=rose&hide_border=true" alt="GitHub Streak" />
