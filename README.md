@@ -14,7 +14,7 @@
 
 ---
 
-### 💻 Tech Stack & Projects
+### Tech Stack & Projects
 - **Backend:** ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-- **AI/LLM:** ![NLP](https://img.shields.io/badge/NLP-LLM-blueviolet?style=flat-square) ![RAG](https://img.shields.io/badge/RAG-Agent-orange?style=flat-square)
+- **AI:** ![NLP](https://img.shields.io/badge/NLP-LLM-blueviolet?style=flat-square) ![RAG](https://img.shields.io/badge/RAG-Agent-orange?style=flat-square)
 - **Domain:** ![Quant](https://img.shields.io/badge/Quant-Space-0A66C2?style=flat-square) ![ML](https://img.shields.io/badge/Machine_Learning-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
