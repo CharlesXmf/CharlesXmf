@@ -1,0 +1,30 @@
+name: Update Cursor heatmap
+
+on:
+  schedule:
+    - cron: "0 3 * * *"   # daily at 03:00 UTC
+  push:
+    paths:
+      - ".github/workflows/cursor-heatmap.yml"
+      - "scripts/generate_cursor_heatmap.py"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate Cursor activity heatmap
+        run: python3 scripts/generate_cursor_heatmap.py
+
+      - name: Commit heatmap
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/cursor-heatmap.svg
+          git commit -m "Update Cursor activity heatmap" || exit 0
+          git push
