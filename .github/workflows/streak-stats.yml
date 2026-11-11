@@ -2,7 +2,8 @@ name: Update streak stats
 
 on:
   schedule:
-    - cron: "0 3 * * *"   # 每天 03:00 UTC
+    - cron: "0 3 * * *"   # 11:00 Asia/Hong_Kong (03:00 UTC)
+    - cron: "0 9 * * *"   # 17:00 Asia/Hong_Kong (09:00 UTC)
   push:
     paths:
       - ".github/workflows/streak-stats.yml"
